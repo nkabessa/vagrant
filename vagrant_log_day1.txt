@@ -1,20 +1,20 @@
-C:\Users\iies0106\vagrant_project>vagrant init
+C:\Users\userXXX\vagrant_project>vagrant init
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 
-C:\Users\iies0106\vagrant_project>vagrant init --minimal
+C:\Users\userXXX\vagrant_project>vagrant init --minimal
 `Vagrantfile` already exists in this directory. Remove it before
 running `vagrant init`.
 
-C:\Users\iies0106\vagrant_project>vagrant init --minimal
+C:\Users\userXXX\vagrant_project>vagrant init --minimal
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 
-C:\Users\iies0106\vagrant_project>vagrant up
+C:\Users\userXXX\vagrant_project>vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'base' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
@@ -27,15 +27,15 @@ An error occurred while downloading the remote file. The error
 message, if any, is reproduced below. Please fix this error and try
 again.
 
-Couldn't open file /C:/Users/iies0106/vagrant_project/base
+Couldn't open file /C:/Users/userXXX/vagrant_project/base
 
-C:\Users\iies0106\vagrant_project>vagrant init --force hashicorp/precise64
+C:\Users\userXXX\vagrant_project>vagrant init --force hashicorp/precise64
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 
-C:\Users\iies0106\vagrant_project>vagrant up
+C:\Users\userXXX\vagrant_project>vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
@@ -49,7 +49,7 @@ URL and error message are shown below:
 URL: ["https://vagrantcloud.com/hashicorp/precise64"]
 Error: Failed to connect to vagrantcloud.com port 443: Timed out
 
-C:\Users\iies0106\vagrant_project>vagrant plugin install vagrant-proxyconf
+C:\Users\userXXX\vagrant_project>vagrant plugin install vagrant-proxyconf
 Installing the 'vagrant-proxyconf' plugin. This can take a few minutes...
 Vagrant failed to load a configured plugin source. This can be caused
 by a variety of issues including: transient connectivity issues, proxy
@@ -61,24 +61,24 @@ below to help resolve the issue:
 
 Source: https://rubygems.org/
 
-C:\Users\iies0106\vagrant_project>netsh winhttp show proxy
+C:\Users\userXXX\vagrant_project>netsh winhttp show proxy
 
 Current WinHTTP proxy settings:
 
     Direct access (no proxy server).
 
 
-C:\Users\iies0106\vagrant_project>set HTTPS_PROXY=http://172.26.210.15:80
+C:\Users\userXXX\vagrant_project>set HTTPS_PROXY=http://172.26.210.15:80
 
-C:\Users\iies0106\vagrant_project>set HTTP_PROXY=http://172.26.210.15:80
+C:\Users\userXXX\vagrant_project>set HTTP_PROXY=http://172.26.210.15:80
 
-C:\Users\iies0106\vagrant_project>vagrant init --force hashicorp/precise64
+C:\Users\userXXX\vagrant_project>vagrant init --force hashicorp/precise64
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 
-C:\Users\iies0106\vagrant_project>vagrant up
+C:\Users\userXXX\vagrant_project>vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Box 'hashicorp/precise64' could not be found. Attempting to find and install...
     default: Box Provider: virtualbox
